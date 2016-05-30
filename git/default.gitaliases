@@ -12,19 +12,19 @@
   ##
 
   # checkout bugfix branch
-  checkout-bugfix = !sh -c 'git checkout bugfix/$1 ${@:2}' -
+  checkout-bugfix = !sh -c 'git checkout -b bugfix/$1 ${@:2}' -
   cobf = !git checkout-bugfix
 
   # checkout feature branch
-  checkout-feature = !sh -c 'git checkout feature/$1 ${@:2}' -
+  checkout-feature = !sh -c 'git checkout -b feature/$1 ${@:2}' -
   cof = !git checkout-feature
 
   # checkout hotfix branch
-  checkout-hotfix = !sh -c 'git checkout hotfix/$1 ${@:2}' -
+  checkout-hotfix = !sh -c 'git checkout -b hotfix/$1 ${@:2}' -
   cohf = !git checkout-hotfix
 
   # checkout release branch
-  checkout-release = !sh -c 'git checkout release/$1 ${@:2}' -
+  checkout-release = !sh -c 'git checkout -b release/$1 ${@:2}' -
   cor = !git checkout-release
 
   # checkout tag as branch
@@ -128,6 +128,7 @@
   br = branch
   ci = commit
   co = checkout
+  cob = checkout -b
   st = status
 
   ##
