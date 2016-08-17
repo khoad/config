@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite the default settings
+{
+    //-------- HTTP configuration --------
+    
+    "http.proxy": "",
+
+	// Whether the proxy server certificate should be verified against the list of supplied CAs.
+	"http.proxyStrictSSL": false,
+
+// Go configuration
+
+    // Pick 'gofmt', 'goimports' or 'goreturns' to run on format.
+    "go.formatTool": "gofmt",
+
+    // Complete functions with their parameter signature
+    "go.useCodeSnippetsOnFunctionSuggest": true
+}
