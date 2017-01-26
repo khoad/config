@@ -10,7 +10,7 @@
 // Go configuration
 
     // Pick 'gofmt', 'goimports' or 'goreturns' to run on format.
-    "go.formatTool": "gofmt",
+    "go.formatTool": "goreturns",
 
     // Complete functions with their parameter signature
     "go.useCodeSnippetsOnFunctionSuggest": true
