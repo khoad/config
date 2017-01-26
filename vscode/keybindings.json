@@ -7,9 +7,5 @@
     {
         "key": "cmd+shift+]",
         "command": "workbench.action.nextEditor"
-    },
-    {
-        "key": "cmd+w",
-        "command": "workbench.action.closeActiveEditor"
     }
 ]
