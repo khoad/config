@@ -1,11 +1,14 @@
 // Place your settings in this file to overwrite the default settings
 {
     //-------- HTTP configuration --------
-    
+
     "http.proxy": "",
 
 	// Whether the proxy server certificate should be verified against the list of supplied CAs.
 	"http.proxyStrictSSL": false,
+
+    //-------- File configuration --------
+    "files.autoSave": "onFocusChange"
 
 // Go configuration
 
