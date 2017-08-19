@@ -8,7 +8,18 @@
 	"http.proxyStrictSSL": false,
 
     //-------- File configuration --------
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.template": "json"
+    },
+	
+
+    "vim.disableAnnoyingNeovimMessage": true,
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#135564", //For when you highlight a selection
+        "editor.selectionHighlightBackground": "#135564" //For when the editor highlights all similar words
+    },
 
 // Go configuration
 
