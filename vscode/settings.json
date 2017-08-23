@@ -1,18 +1,17 @@
 // Place your settings in this file to overwrite the default settings
 {
     //-------- HTTP configuration --------
-
     "http.proxy": "",
+    // Whether the proxy server certificate should be verified against the list of supplied CAs.
+    "http.proxyStrictSSL": false,
 
-	// Whether the proxy server certificate should be verified against the list of supplied CAs.
-	"http.proxyStrictSSL": false,
+    "editor.minimap.enabled": false,
 
     //-------- File configuration --------
     "files.autoSave": "onFocusChange",
     "files.associations": {
         "*.template": "json"
     },
-	
 
     "vim.disableAnnoyingNeovimMessage": true,
     "workbench.colorTheme": "Solarized Dark",
@@ -20,6 +19,7 @@
         "editor.selectionBackground": "#135564", //For when you highlight a selection
         "editor.selectionHighlightBackground": "#135564" //For when the editor highlights all similar words
     },
+    "workbench.editor.enablePreviewFromQuickOpen": false,
 
 // Go configuration
 
